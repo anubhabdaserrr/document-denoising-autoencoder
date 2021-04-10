@@ -1,10 +1,16 @@
-# Project Report :
-## Noisy background removal of documents
+# Removing background noise of text documents using denoising autoencoder
+
 Date : 10th April, 2021
+
+[![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/anubhabdaserrr/document-denoising-autoencoder/blob/main/doument_denoising_autoenc_nb.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anubhabdaserrr/document-denoising-autoencoder/blob/main/doument_denoising_autoenc_nb.ipynb)
+
+## Project Report :
+
 * In this mini-project, I've trained a ConvNet on a dataset [(Link)](https://www.kaggle.com/gti-upm/leapgestrecog) to correctly identify 10 different types of hand gestures (shown below).
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anubhabdaserrr/document-denoising-autoencoder/blob/main/doument_denoising_autoenc_nb.ipynb)
-[![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/anubhabdaserrr/document-denoising-autoencoder/blob/main/doument_denoising_autoenc_nb.ipynb)
+
+
 
 * The ConvNet model architecture used for training is illustrated below : 
 
