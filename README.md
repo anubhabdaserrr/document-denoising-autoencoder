@@ -3,7 +3,8 @@
 Date : 10th April, 2021
 * In this mini-project, I've trained a ConvNet on a dataset [(Link)](https://www.kaggle.com/gti-upm/leapgestrecog) to correctly identify 10 different types of hand gestures (shown below).
 
-![Hand Gestures](./misc/hand_gestures.png)
+[![Binder](http://mybinder.org/badge.svg)](https://beta.mybinder.org/v2/gh/harmslab/notebooks-nonlinear-high-order-epistasis/master)
+[![nbviewer](https://img.shields.io/badge/render-nbviewer-orange.svg)](https://nbviewer.jupyter.org/github/anubhabdaserrr/document-denoising-autoencoder/blob/main/doument_denoising_autoenc_nb.ipynb)
 
 * The ConvNet model architecture used for training is illustrated below : 
 
