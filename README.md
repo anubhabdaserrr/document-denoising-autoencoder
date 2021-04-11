@@ -17,7 +17,7 @@ Date : 10th April, 2021
 ## Model & Training details
 
 ### Convolutional Autoencoder Architecture
-Model pic goes here.
+![](./misc/autoenc_arch.png)
 
 ### Training details
 ```
@@ -25,6 +25,10 @@ Optimizer : Adam with mini-batch gradient descent
 beta1 : 0.999
 beta2 : 0.999
 Learning rate : 0.01 
+Loss : Mean Squared Error
+Validation Metric : Mean Absolute Error
+Mini batch size : 32
+No. of epochs : 100
 ```
 
 ## Evaluation & test performance
