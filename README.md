@@ -34,7 +34,7 @@ No. of epochs : 100
 ## Evaluation & test performance
 
 ### Loss Curves :
-<img src="./misc/mse_loss_curve.png" width="438" height="292" /> <img src="./misc/mae_curve.png" width="438" height="292" />
+<img src="./misc/mse_loss_curve.png" width="418" height="282" /> <img src="./misc/mae_curve.png" width="418" height="282" />
 
 ### Validation Predicted & Actual Images :
 ![](./misc/val_imgs_pred_3.png)
