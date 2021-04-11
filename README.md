@@ -8,13 +8,43 @@ Date : 10th April, 2021
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/anubhabdaserrr/document-denoising-autoencoder/blob/main/doument_denoising_autoenc_nb.ipynb)
 
 ## Objective & data
-Hi
+
+![](./misc/train_imgs_1.png)
+![](./misc/train_imgs_2.png)
+
+**Note : In the context of this project, denoising refers to removal the content of the background (which may not necessarily be "noise" but is treated in this work as such) to successfully extract the foreground text.**
 
 ## Model & Training details
-Discuss
+
+### Convolutional Autoencoder Architecture
+Model pic goes here.
+
+### Training details
+```
+Optimizer : Adam with mini-batch gradient descent
+beta1 : 0.999
+beta2 : 0.999
+Learning rate : 0.01 
+```
 
 ## Evaluation & test performance
-Hey
+
+### Loss Curves :
+<img src="./misc/mse_loss_curve.png" width="458" height="302" /> <img src="./misc/mae_curve.png" width="458" height="302" />
+
+### Validation Predicted & Actual Images :
+![](./misc/val_imgs_pred_3.png)
+![](./misc/val_imgs_pred_4.png)
+
+
+### Validation Images Pixel Intensity Histograms :
+![](./misc/pixel_hist_valpred3.png)
+![](./misc/pixel_hist_valpred3.png)
+
+### Denoising unseen test images :
+![](./misc/test_pred_1.png)
+![](./misc/test_pred_2.png) 
+![](./misc/test_pred_3.png) 
 
 ## References
 Links go here
